@@ -33,9 +33,6 @@ namespace oop_project
             return Id;
         }
         public abstract void printDetails();
-
-        public virtual void printName(){}
-
            
     }
 
@@ -57,6 +54,7 @@ namespace oop_project
 
         public override void printDetails()
         {
+            Console.WriteLine($"Name is : {Name}");
             Console.WriteLine($"PhoneNum is : {PhoneNum}");
             Console.WriteLine($"Id is : {Id}");
             Console.WriteLine($"Email is : {Email}");
@@ -64,7 +62,6 @@ namespace oop_project
             Console.WriteLine($"Gpa is : {Gpa}" );
 
         }
-        public override void printName() 
 
 
     }
